@@ -1,6 +1,7 @@
 // import CostItem from "./components/CostItem";
 // import "./components/Costs.css";
 import Costs from "./components/Costs/Costs";
+import NewCost from "./components/NewCost/NewCost";
 
 function App() {
   const costs = [
@@ -24,6 +25,7 @@ function App() {
   return (
     <div>
       <h1>Start</h1>
+      <NewCost />
       <Costs costs={costs} />
     </div>
   );
