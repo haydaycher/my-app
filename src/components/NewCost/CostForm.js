@@ -92,6 +92,9 @@ const CostForm = (props) => {
         </div>
         <div className="new-cost__actions">
           <button type="submit">Add</button>
+          <button type="button" onClick={props.hideFormHandler}>
+            Cancel
+          </button>
         </div>
       </div>
     </form>
