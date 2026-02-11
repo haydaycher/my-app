@@ -7,19 +7,19 @@ import NewCost from "./components/NewCost/NewCost";
 const INITIAL_COSTS = [
   {
     id: "c1",
-    date: new Date(2026, 1, 7),
-    description: "холодильник",
+    date: new Date(2022, 1, 7),
+    description: "Fridge",
     amount: 999.99,
   },
   {
     id: "c2",
-    date: new Date(2026, 8, 6),
+    date: new Date(2021, 8, 6),
     description: "Macbook Pro",
     amount: 1245.99,
   },
   {
     id: "c3",
-    date: new Date(2026, 11, 1),
+    date: new Date(2020, 11, 1),
     description: "Jeans",
     amount: 189.99,
   },
@@ -31,7 +31,6 @@ function App() {
   const addCostHandler = (cost) => {
     setCosts((previousCosts) => [cost, ...previousCosts]);
   };
-
 
   return (
     <div>
